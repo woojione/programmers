@@ -24,6 +24,6 @@ def solution(array):
             return m[0][0]
 
 
-array=list(input("array 입력: ").split())
+array=list(input("array 입력: ").split()) #문자 입력받고 싶으면 list(input())
 print("array: ",array)
 print(solution(array))
